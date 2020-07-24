@@ -22,7 +22,7 @@ Dim ws As Worksheet                                     'Defining the variable t
 Set ws = Workbooks("VBA_TRAINING").Sheets("Report")     'Assigning the value to our variable.
 
 If IsEmpty(ws.Range("E1").Value) = True Then            'Cheking if column "E" is empty.
-ws.Columns(5).EntireColumn.Delete                          'If "E" is empty, the line of code will delete it.
+ws.Columns(5).EntireColumn.Delete                       'If "E" is empty, the line of code will delete it.
 End If
 
 With ws                                                 'This following lines will apply changes to the format and header of the sheet
