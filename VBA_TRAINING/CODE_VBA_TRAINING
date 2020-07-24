@@ -35,7 +35,7 @@ With ws                                                 'This following lines wi
     .Range("G1") = "VALUE:"
     .Range("A:G").HorizontalAlignment = xlCenter        'This will centralize the columns that we are working whit.
     .Range("B:B").NumberFormat = "mm/dd/yy"             'This will fix the format so that will show us a date insted of a number.
-    .Range("A1:G1").Font.Bold = True                     'This will change the font on the header to bold.
+    .Range("A1:G1").Font.Bold = True                    'This will change the font on the header to bold.
 
 End With
 
