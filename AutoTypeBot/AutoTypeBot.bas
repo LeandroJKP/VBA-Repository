@@ -153,7 +153,7 @@ If LastItem - FirstItem + 1 = 1 Then                   'Ending message for one i
 Msg = "Typing of solicitation with 1 item finished."
 MsgBox Msg, 0, "Task completed "
 
-Else                                                   'MEnding message for more than one item
+Else                                                   'Ending message for more than one item
 
 Msg = "Typing of solicitation with " & LastItem - FirstItem + 1 & " items ."
 MsgBox Msg, 0, "Task completed"
