@@ -45,7 +45,7 @@ ________________________________________________________________________________
 
 Sub VLOOKUP_DATA_UPDATE()                                                       'This subroutine will make a VLOOUP to find the sector that is responsible for the SKU.
 
-Workbooks("VBA_TRAINING").Sheets("Report").Activate                             'This will acrivate the correct sheet.
+Workbooks("VBA_TRAINING").Sheets("Report").Activate                             'This will activate the correct sheet.
 
 Dim lastrow As Long                                                             'Defining the variable that will store the number of lines in column A.
 lastrow = Range("A" & Rows.Count).End(xlUp).Row                                 'Assigning the value to our variable.
@@ -67,7 +67,7 @@ ________________________________________________________________________________
 
 Sub DATA_CALCULATION()                                                          'This subroutine will calculate the inventory value os each SKU.
 
-Workbooks("VBA_TRAINING").Sheets("Report").Activate                             'This will acrivate the correct sheet.
+Workbooks("VBA_TRAINING").Sheets("Report").Activate                             'This will activate the correct sheet.
 
 Dim lastrow As Long                                                             'Defining the variable that will store the number of lines in column A.
 lastrow = Range("A" & Rows.Count).End(xlUp).Row                                 'Assigning the value to our variable.
